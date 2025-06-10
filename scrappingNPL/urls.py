@@ -11,7 +11,8 @@ books = [
         "language": "English",
         "autor": "Charles Egbert Craddock",
         "url": "https://www.gutenberg.org/cache/epub/76105/pg76105-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@ books = [
         "language": "Spanish",
         "autor": "Dante Alighieri",
         "url": "https://www.gutenberg.org/cache/epub/57303/pg57303-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@ books = [
         "language": "Spanish",
         "autor": "Wenceslao Fernández-Flórez",
         "url": "https://www.gutenberg.org/cache/epub/58865/pg58865-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 4,
@@ -35,7 +38,8 @@ books = [
         "language": "Spanish",
         "autor": "José María de Pereda",
         "url": "https://www.gutenberg.org/cache/epub/14995/pg14995-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 5,
@@ -43,7 +47,8 @@ books = [
         "language": "Spanish",
         "autor": "Rudyard Kipling",
         "url": "https://www.gutenberg.org/cache/epub/69552/pg69552-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@ books = [
         "language": "Spanish",
         "autor": "Ramón Pérez de Ayala",
         "url": "https://www.gutenberg.org/cache/epub/14318/pg14318-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 7,
@@ -59,7 +65,8 @@ books = [
         "language": "Spanish",
         "autor": "Hugo Wast",
         "url": "https://www.gutenberg.org/cache/epub/59631/pg59631-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 8,
@@ -67,7 +74,8 @@ books = [
         "language": "Spanish",
         "autor": "Voltaire",
         "url": "https://www.gutenberg.org/cache/epub/7109/pg7109-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 9,
@@ -75,7 +83,8 @@ books = [
         "language": "Spanish",
         "autor": "Voltaire",
         "url": "https://www.gutenberg.org/cache/epub/9895/pg9895-images.html",
-        "processed": True
+        "processed": True,
+        "include": True
     },
     {
         "id": 10,
@@ -83,7 +92,8 @@ books = [
         "language": "Spanish",
         "autor": "Voltaire",
         "url": "https://www.gutenberg.org/cache/epub/5985/pg5985-images.html",
-        "processed": True
+        "processed": False,
+        "include": False
     },
     {
         "id": 11,
@@ -91,7 +101,8 @@ books = [
         "language": "Spanish",
         "autor": "Ernest Renan",
         "url": "https://www.gutenberg.org/cache/epub/65410/pg65410-images.html",
-        "processed": False
+        "processed": False,
+        "include": False
     },
     {
         "id": 12,
@@ -99,7 +110,35 @@ books = [
         "language": "Spanish",
         "autor": "Ernest Renan",
         "url": "https://www.gutenberg.org/cache/epub/65165/pg65165-images.html",
-        "processed": False
+        "processed": False,
+        "include": False
+    },
+    {
+        "id": 13,
+        "name": "Algo de todo",
+        "language": "Spanish",
+        "autor": "Juan Valera",
+        "url": "https://www.gutenberg.org/cache/epub/30213/pg30213-images.html",
+        "processed": False,
+        "include": False
+    },
+    {
+        "id": 14,
+        "name": "Morsamor",
+        "language": "Spanish",
+        "autor": "Juan Valera",
+        "url": "https://www.gutenberg.org/cache/epub/17430/pg17430-images.html",
+        "processed": False,
+        "include": True
+    },
+    {
+        "id": 15,
+        "name": "La letra escarlata",
+        "language": "Spanish",
+        "author": "Nathaniel Hawthorne",
+        "url": "https://www.gutenberg.org/cache/epub/36990/pg36990-images.html",
+        "processed": 0,
+        "include": 1
     }
 ]
 

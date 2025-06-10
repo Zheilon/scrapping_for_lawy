@@ -1,4 +1,5 @@
 from pathlib import Path
+from alertcolors import red, green
 
 def currentDirectory(path: str):
     absolute = Path(__file__).resolve().parent
@@ -6,7 +7,7 @@ def currentDirectory(path: str):
 
 
 def writeTextIn(doc: str, text: str):
-    with open(doc, "a", encoding="utf-8") as file:
+    with open(doc, "w", encoding="utf-8") as file:
         file.write(text + "\n")
 
 def writeLinesIn(doc: str, lines: list[str]):
@@ -26,7 +27,8 @@ def readTextFrom(doc: str):
 
 def transformTypeTxt(name: str):
     lowerName = ""
-    for chars in name:
+    enghWhiteSpaces = name.strip()
+    for chars in enghWhiteSpaces:
         if chars != ' ':
             lowerName += chars.lower()
         elif chars == ' ':
@@ -37,6 +39,32 @@ def transformTypeTxt(name: str):
         if chars != ',':
             second += chars
 
-    return second + ".txt"
+    three = ""
+    for chars in second:
+        if chars != ';':
+            three += chars
 
-print(transformTypeTxt("Los Apóstoles"))
+    four = ""
+    for chars in three:
+        if chars != ':':
+            four += chars
+
+    five = ""
+    for chars in four:
+        if chars != '.':
+            five += chars
+
+    return five + ".txt"
+
+
+def createDocTxt(path: str, name: str):
+    pathWithdoc = f"{path}\\{transformTypeTxt(name)}"
+    if Path(pathWithdoc).is_file() and Path(pathWithdoc).exists():
+        red(f"\nEl archivo {pathWithdoc} ya existe")
+        return
+
+    with open(pathWithdoc, "w", encoding="utf-8") as file:
+        file.write("")
+        green(f"\nArchivo: {pathWithdoc}\nCreado con exito!")
+
+    return pathWithdoc

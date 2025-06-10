@@ -1,9 +1,11 @@
+import json
+
 import requests
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
-from utils import writeTextIn
-from scrappingNPL.urls import *
-from utils import currentDirectory
+from utils import writeTextIn, createDocTxt
+from scrappingNPL.Jactions import readJson, json_path
+from alertcolors import *
 
 pathbook = lambda namebook: f"scrappingNPL/books/{namebook}"
 
@@ -15,14 +17,19 @@ def translateEsToEn(text):
 def rangeToDivide(len_text: int):
     if len_text <= 5000:
         return 1
+
     if len_text <= 10000:
         return 2
+
     if len_text <= 50000:
         return 50
+
     if len_text <= 100000:
         return 100
+
     if len_text <= 1000000:
         return 170
+
     if len_text <= 10000000:
         return 210
 
@@ -60,7 +67,11 @@ def translate(fileEn: str, fileToTraduce: str):
     writeTextIn(fileToTraduce, traduce)
 
 
-def literatureScrapping(doc: str, url: str):
+def get_html_gutenberg_url(book_id: int) -> str:
+    return f"https://www.gutenberg.org/files/{book_id}/{book_id}-h/{book_id}-h.htm"
+
+
+def scrappingInText(doc: str, url: str):
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser').get_text()
@@ -69,6 +80,48 @@ def literatureScrapping(doc: str, url: str):
         print(f"Error: {response.status_code}")
 
 
-literatureScrapping(
-    currentDirectory(pathbook("los_apóstoles.txt")), searchBook(11, URL)
-)
+def scrappingInTags(doc: str, url: str):
+    response = requests.get(url)
+    if response.status_code == 200:
+        response.encoding = response.apparent_encoding
+        soup = BeautifulSoup(response.text, 'html.parser').find_all('p')
+        content = [p.get_text(strip=True) for p in soup]
+        writeTextIn(doc, "\n".join(content))
+        green(f"Scrapping: {url} was success!")
+
+
+def scrappingAll(path: str):
+    json_books = readJson()
+    for book in json_books:
+        path_book = createDocTxt(path, book['title'])
+        scrappingInTags(path_book, get_html_gutenberg_url(book['id']))
+
+
+def get_gutenberg_ids_in_spanish(limit):
+    url = "https://gutendex.com/books"
+    params = {
+        "languages": "es",
+        "page": 1
+    }
+    ids = []
+    while len(ids) < limit:
+        print(f"Buscando en página {params['page']}...")
+        res = requests.get(url, params=params)
+        data = res.json()
+
+        for book in data["results"]:
+            idb = book["id"]
+            title = book["title"]
+
+            ids.append({"id": idb, "title": title, "url": get_html_gutenberg_url(idb)})
+            print(f"ID encontrado: {book['id']} - {book['title']}")
+
+            if len(ids) >= limit:
+                break
+
+        if not data["next"]:
+            break
+
+        params["page"] += 1
+
+    return ids

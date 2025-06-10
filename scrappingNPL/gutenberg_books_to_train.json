@@ -1,0 +1,543 @@
+[
+    {
+        "id": 76105,
+        "title": "El espectro de poder",
+        "language": "en",
+        "author": "Charles Egbert Craddock",
+        "url": "https://www.gutenberg.org/files/76105/76105-h/76105-h.htm",
+        "processed": 0,
+        "include": 0
+    },
+    {
+        "id": 57303,
+        "title": "La Divina Comedia",
+        "language": "es",
+        "author": "Dante Alighieri",
+        "url": "https://www.gutenberg.org/files/57303/57303-h/57303-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 58865,
+        "title": "Volvoreta",
+        "language": "es",
+        "author": "Wenceslao Fernández-Flórez",
+        "url": "https://www.gutenberg.org/files/58865/58865-h/58865-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 14995,
+        "title": "Los Hombres de Pro",
+        "language": "es",
+        "author": "José María de Pereda",
+        "url": "https://www.gutenberg.org/files/14995/14995-h/14995-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 69552,
+        "title": "El libro de las tierras vírgenes",
+        "language": "es",
+        "author": "Rudyard Kipling",
+        "url": "https://www.gutenberg.org/files/69552/69552-h/69552-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 14318,
+        "title": "Belarmino y Apolonio",
+        "language": "es",
+        "author": "Ramón Pérez de Ayala",
+        "url": "https://www.gutenberg.org/files/14318/14318-h/14318-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 59631,
+        "title": "La Casa de los Cuervos",
+        "language": "es",
+        "author": "Hugo Wast",
+        "url": "https://www.gutenberg.org/files/59631/59631-h/59631-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 7109,
+        "title": "Candido, o El Optimismo",
+        "language": "es",
+        "author": "Voltaire",
+        "url": "https://www.gutenberg.org/files/7109/7109-h/7109-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 9895,
+        "title": "Novelas de Voltaire — Tomo Primero",
+        "language": "es",
+        "author": "Voltaire",
+        "url": "https://www.gutenberg.org/files/9895/9895-h/9895-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 5985,
+        "title": "Zadig, ó El Destino, Historia Oriental",
+        "language": "es",
+        "author": "Voltaire",
+        "url": "https://www.gutenberg.org/files/5985/5985-h/5985-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 65410,
+        "title": "Los Apóstoles",
+        "language": "es",
+        "author": "Ernest Renan",
+        "url": "https://www.gutenberg.org/files/65410/65410-h/65410-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 65165,
+        "title": "Vida de Jesús",
+        "language": "es",
+        "author": "Ernest Renan",
+        "url": "https://www.gutenberg.org/files/65165/65165-h/65165-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 30213,
+        "title": "Algo de todo",
+        "language": "es",
+        "author": "Juan Valera",
+        "url": "https://www.gutenberg.org/files/30213/30213-h/30213-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 41106,
+        "title": "La voz de la conseja, t.2",
+        "language": "es",
+        "author": "Joaquín Álvarez Quintero y otros",
+        "url": "https://www.gutenberg.org/files/41106/41106-h/41106-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 49660,
+        "title": "La alhambra; leyendas árabes",
+        "language": "es",
+        "author": "Manuel Fernández y González",
+        "url": "https://www.gutenberg.org/files/49660/49660-h/49660-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 17430,
+        "title": "Morsamor",
+        "language": "es",
+        "author": "Juan Valera",
+        "url-images": "https://www.gutenberg.org/cache/epub/17430/pg17430-images.html",
+        "processed": 0,
+        "include": 1,
+        "url": "https://www.gutenberg.org/files/17430/17430-h/17430-h.htm"
+    },
+    {
+        "id": 27295,
+        "title": "Amparo (Memorias de un loco)",
+        "language": "es",
+        "author": "Manuel Fernández y González",
+        "url": "https://www.gutenberg.org/files/27295/27295-h/27295-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 33275,
+        "title": "El cocinero de su majestad: Memorias del tiempo de Felipe III",
+        "language": "es",
+        "author": "Manuel Fernández y González",
+        "url": "https://www.gutenberg.org/files/33275/33275-h/33275-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 54282,
+        "title": "Socialismo y ciencia positiva (Darwin-Spencer-Marx)",
+        "language": "es",
+        "author": "Enrico Ferri",
+        "url": "https://www.gutenberg.org/files/54282/54282-h/54282-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 27100,
+        "title": "Historia de una parisiense",
+        "language": "es",
+        "author": "Octave Feuillet",
+        "url": "https://www.gutenberg.org/files/27100/27100-h/27100-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 24802,
+        "title": "Honor de artista",
+        "language": "es",
+        "author": "Octave Feuillet",
+        "url": "https://www.gutenberg.org/files/24802/24802-h/24802-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 66285,
+        "title": "Salambó",
+        "language": "es",
+        "author": "Gustave Flaubert",
+        "url": "https://www.gutenberg.org/files/66285/66285-h/66285-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 58713,
+        "title": "México tal cual es",
+        "language": "es",
+        "author": "Carlo de Fornaro",
+        "url": "https://www.gutenberg.org/files/58713/58713-h/58713-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 36990,
+        "title": "La letra escarlata",
+        "language": "es",
+        "author": "Nathaniel Hawthorne",
+        "url": "https://www.gutenberg.org/files/36990/36990-h/36990-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 60748,
+        "title": "Nacha Regules: Novela",
+        "language": "es",
+        "author": "Manuel Gálvez",
+        "url": "https://www.gutenberg.org/files/60748/60748-h/60748-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 29706,
+        "title": "Cartas de mi molino",
+        "language": "es",
+        "author": "Alphonse Daudet",
+        "url": "https://www.gutenberg.org/files/29706/29706-h/29706-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 73486,
+        "title": "Corazón (diario de un niño)",
+        "language": "es",
+        "author": "Edmondo De Amicis",
+        "url": "https://www.gutenberg.org/files/73486/73486-h/73486-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 62359,
+        "title": "El anacronópete; Viaje a China; Metempsicosis",
+        "language": "es",
+        "author": "Enrique Gaspar",
+        "url": "https://www.gutenberg.org/files/62359/62359-h/62359-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 58375,
+        "title": "La Caravana Pasa",
+        "language": "es",
+        "author": "Rubén Darío",
+        "url": "https://www.gutenberg.org/files/58375/58375-h/58375-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 49413,
+        "title": "El señor de Bembibre",
+        "language": "es",
+        "author": "Enrique Gil y Carrasco",
+        "url": "https://www.gutenberg.org/files/49413/49413-h/49413-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 47287,
+        "title": "El libro de las mil noches y una noche; t. 1",
+        "language": "es",
+        "author": "Anonymous",
+        "url": "https://www.gutenberg.org/files/47287/47287-h/47287-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 75126,
+        "title": "Sab (novela original)",
+        "language": "es",
+        "author": "Gertrudis Gómez de Avellaneda",
+        "url": "https://www.gutenberg.org/files/75126/75126-h/75126-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 63228,
+        "title": "La quinta de Palmyra",
+        "language": "es",
+        "author": "Ramón Gómez de la Serna",
+        "url": "https://www.gutenberg.org/files/63228/63228-h/63228-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 64775,
+        "title": "Los Lusíadas: Poema épico en diez cantos",
+        "language": "es",
+        "author": "Luís de Camões",
+        "url": "https://www.gutenberg.org/files/64775/64775-h/64775-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 65486,
+        "title": "Dramas (1 de 2): Hernani; El Rey se divierte; Los Burgraves",
+        "language": "es",
+        "author": "Victor Hugo",
+        "url": "https://www.gutenberg.org/files/65486/65486-h/65486-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 65584,
+        "title": "Dramas (2 de 2): Lucrecia Borgia; María Tudor; La Esmeralda; Ruy Blas",
+        "language": "es",
+        "author": "Victor Hugo",
+        "url": "https://www.gutenberg.org/files/65584/65584-h/65584-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 62564,
+        "title": "Oasis en la vida",
+        "language": "es",
+        "author": "Juana Manuela Gorriti",
+        "url": "https://www.gutenberg.org/files/62564/62564-h/62564-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 66866,
+        "title": "Historia de la guerra del Peloponeso (1 de 2)",
+        "language": "es",
+        "author": "Thucydides",
+        "url": "https://www.gutenberg.org/files/66866/66866-h/66866-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 66867,
+        "title": "Historia de la guerra del Peloponeso (2 de 2)",
+        "language": "es",
+        "author": "Thucydides",
+        "url": "https://www.gutenberg.org/files/66867/66867-h/66867-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 62691,
+        "title": "El criticón (tomo 1 de 2)",
+        "language": "es",
+        "author": "Baltasar Gracián y Morales",
+        "url": "https://www.gutenberg.org/files/62691/62691-h/62691-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 63402,
+        "title": "El criticón (tomo 2 de 2)",
+        "language": "es",
+        "author": "Baltasar Gracián y Morales",
+        "url": "https://www.gutenberg.org/files/63402/63402-h/63402-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 49376,
+        "title": "Del Plata al Niagara",
+        "language": "es",
+        "author": "Paul Groussac",
+        "url": "https://www.gutenberg.org/files/49376/49376-h/49376-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 62450,
+        "title": "Historia del Paraguay, Río de La Plata y Tucumán",
+        "language": "es",
+        "author": "José Guevara",
+        "url": "https://www.gutenberg.org/files/62450/62450-h/62450-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 20930,
+        "title": "Cosmografía",
+        "language": "es",
+        "author": "Amédée Guillemin",
+        "url": "https://www.gutenberg.org/files/20930/20930-h/20930-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 46496,
+        "title": "Cuentos Clásicos del Norte, Segunda Serie",
+        "language": "es",
+        "author": "Washington Irving y otros",
+        "url": "https://www.gutenberg.org/files/46496/46496-h/46496-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 29703,
+        "title": "El Abate Constantin",
+        "language": "es",
+        "author": "Ludovic Halévy",
+        "url": "https://www.gutenberg.org/files/29703/29703-h/29703-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 25671,
+        "title": "Bocetos californianos",
+        "language": "es",
+        "author": "Bret Harte",
+        "url": "https://www.gutenberg.org/files/25671/25671-h/25671-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 55215,
+        "title": "Cuando la tierra era niña",
+        "language": "es",
+        "author": "Nathaniel Hawthorne",
+        "url": "https://www.gutenberg.org/files/55215/55215-h/55215-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 72753,
+        "title": "Los nueve libros de la Historia (1 de 2)",
+        "language": "es",
+        "author": "Herodotus",
+        "url": "https://www.gutenberg.org/files/72753/72753-h/72753-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 72754,
+        "title": "Los nueve libros de la Historia (2 de 2)",
+        "language": "es",
+        "author": "Herodotus",
+        "url": "https://www.gutenberg.org/files/72754/72754-h/72754-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 57654,
+        "title": "La Ilíada",
+        "language": "es",
+        "author": "Homer",
+        "url": "https://www.gutenberg.org/files/57654/57654-h/57654-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 58221,
+        "title": "La Odisea",
+        "language": "es",
+        "author": "Homer",
+        "url": "https://www.gutenberg.org/files/58221/58221-h/58221-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 73064,
+        "title": "Moral social apreciación de Hostos",
+        "language": "es",
+        "author": "Eugenio María de Hostos",
+        "url": "https://www.gutenberg.org/files/73064/73064-h/73064-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 75868,
+        "title": "Manon Lescaut",
+        "language": "es",
+        "author": "abbé Prévost",
+        "url": "https://www.gutenberg.org/files/75868/75868-h/75868-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 28592,
+        "title": "El pecado y la noche",
+        "language": "es",
+        "author": "Antonio de Hoyos y Vinent",
+        "url": "https://www.gutenberg.org/files/28592/28592-h/28592-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 61831,
+        "title": "Cristóbal Colón y el descubrimiento de América, Tomo 1",
+        "language": "es",
+        "author": "Alexander von Humboldt",
+        "url": "https://www.gutenberg.org/files/61831/61831-h/61831-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 61832,
+        "title": "Cristóbal Colón y el descubrimiento de América, Tomo 2",
+        "language": "es",
+        "author": "Alexander von Humboldt",
+        "url": "https://www.gutenberg.org/files/61832/61832-h/61832-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 56301,
+        "title": "Hacia una Moral sin Dogmas: Lecciones sobre Emerson y el Eticismo",
+        "language": "es",
+        "author": "José Ingenieros",
+        "url": "https://www.gutenberg.org/files/56301/56301-h/56301-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 64974,
+        "title": "El Hombre Mediocre: Ensayo de psicologia y moral",
+        "language": "es",
+        "author": "José Ingenieros",
+        "url": "https://www.gutenberg.org/files/64974/64974-h/64974-h.htm",
+        "processed": 0,
+        "include": 1
+    },
+    {
+        "id": 64188,
+        "title": "La simulación en la lucha por la vida",
+        "language": "es",
+        "author": "José Ingenieros",
+        "url": "https://www.gutenberg.org/files/64188/64188-h/64188-h.htm",
+        "processed": 0,
+        "include": 1
+    }
+]

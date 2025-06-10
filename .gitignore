@@ -1,0 +1,34 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Carpeta de compilación y distribuciones
+build/
+dist/
+
+# Datos y configuraciones
+*.json
+*.csv
+*.log
+*.db
+*.sqlite
+
+# Archivos y carpetas del IDE
+.idea/
+.vscode/
+
+# Archivos de PyInstaller u otros empaquetadores
+*.spec
+*.exe
+*.pkg
+*.pyz
+
+# Archivos de Python que no sirven en el repo
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git LFS ya maneja los grandes, pero por si acaso
+*.zip
+*.tar.gz
